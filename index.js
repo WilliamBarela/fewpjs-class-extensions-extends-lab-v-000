@@ -14,13 +14,13 @@ class Polygon {
   }
 }
 
-class Triangle {
+class Triangle extends Polygon {
   constructor(){
     
   }
 }
 
-class Square {
+class Square extends Polygon {
   constructor(){
     
   }
