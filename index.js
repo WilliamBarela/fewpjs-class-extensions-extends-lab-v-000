@@ -16,7 +16,11 @@ class Polygon {
 
 class Triangle extends Polygon {
   get isValid(){
-    s = this._sides
+    const s = this._sides;
+    const AB = ;
+    const BC = ;
+    const CA = ;
+    const [A,B,C] = 
     return (this.countSides === 3 && )
   }
 }
