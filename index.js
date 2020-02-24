@@ -15,13 +15,7 @@ class Polygon {
 }
 
 class Triangle extends Polygon {
-  constructor(){
-    super(sides)
-  }
 }
 
 class Square extends Polygon {
-  constructor(){
-    super(perimeter);
-  }
 }
