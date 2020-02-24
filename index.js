@@ -16,7 +16,7 @@ class Polygon {
 
 class Triangle extends Polygon {
   constructor(){
-    
+    super(sides)
   }
 }
 
