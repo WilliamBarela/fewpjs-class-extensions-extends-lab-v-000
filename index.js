@@ -13,3 +13,15 @@ class Polygon {
     return this._sides.reduce((s, sum) => sum + s);
   }
 }
+
+class Triangle {
+  constructor(){
+    
+  }
+}
+
+class Square {
+  constructor(){
+    
+  }
+}
