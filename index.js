@@ -15,6 +15,10 @@ class Polygon {
 }
 
 class Triangle extends Polygon {
+  get isValid(){
+    s = this._sides
+    return (this.countSides === 3 && )
+  }
 }
 
 class Square extends Polygon {
