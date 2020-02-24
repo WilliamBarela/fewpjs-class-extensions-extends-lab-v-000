@@ -27,4 +27,8 @@ class Square extends Polygon {
   get isValid(){
     return (this.countSides === 4 && this._sides.every(s => s === this._sides[0]));
   }
+  
+  get area(){
+    return this._sides[0] * this._sides[0];
+  }
 }
