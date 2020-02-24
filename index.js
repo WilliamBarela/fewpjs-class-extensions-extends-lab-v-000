@@ -6,10 +6,10 @@ class Polygon {
   }
   
   get countSides(){
-    this._sides.length;
+    return this._sides.length;
   }
   
   get perimeter(){
-    this._perimeter = this._sides.reduce((s, sum) => sum + s);
+    return this._perimeter = this._sides.reduce((s, sum) => sum + s);
   }
 }
